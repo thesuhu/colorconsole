@@ -1,6 +1,6 @@
 /**
   * MIT License
-  * https://github.com/thesuhu/colorconsole.git
+  * https://github.com/thesuhu/colorconsole/blob/master/LICENSE
 */
 
 const chalk = require('chalk')
