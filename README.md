@@ -1,6 +1,6 @@
 # colorconsole
 
-![GitHub package.json version](https://img.shields.io/github/package-json/v/thesuhu/colorconsole?style=flat-square)
+[![npm](https://img.shields.io/npm/v/@thesuhu/colorconsole.svg?style=flat-square)](https://www.npmjs.com/package/@thesuhu/colorconsole)
 [![license](https://img.shields.io/github/license/thesuhu/colorconsole?style=flat-square)](https://github.com/thesuhu/colorconsole/blob/master/LICENSE)
 
 Make console log more colorful. While developing, we often deal with console logs. This module provides four templates namely regular log, error log, HTTP log and SQL log.
@@ -37,14 +37,14 @@ Below is an example SQL log.
 ```js
 const { sqlLogConsole } = require('@thesuhu/colorconsole')
 
-// while work with MySQL
+// when work with MySQL
 
 let query = mysql.format(sql, param)
 if (env === 'dev') {
     consolog(query)
 }
 
-// while work with Oracle
+// when work with Oracle
 let query = queryBindToString(sql, param)
 if (env === 'dev') {
     sqlLogConsole(query)
