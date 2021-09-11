@@ -8,7 +8,7 @@ Make console log more colorful. This module provides four templates namely regul
 ## Install
 
 ```sh
-npm install colorconsole --save-dev
+npm install @thesuhu/colorconsole --save-dev
 ```
 
 ## Usage
