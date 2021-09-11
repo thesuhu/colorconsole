@@ -5,7 +5,7 @@
 
 const { logConsole, errorConsole, httpLogConsole, sqlLogConsole } = require('../colorconsole')
 
-// ordinary log
+// regular log
 logConsole('Hello world!')
 
 // error log
