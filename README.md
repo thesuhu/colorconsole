@@ -40,13 +40,13 @@ const { sqlLogConsole } = require('@thesuhu/colorconsole')
 // when work with MySQL
 
 let query = mysql.format(sql, param)
-if (env === 'dev') {
-    consolog(query)
+if (env == 'dev') {
+    sqlLogConsole(query)
 }
 
 // when work with Oracle
 let query = queryBindToString(sql, param)
-if (env === 'dev') {
+if (env == 'dev') {
     sqlLogConsole(query)
 }
 ```
