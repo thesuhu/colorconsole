@@ -1,6 +1,6 @@
 {
   "name": "@thesuhu/colorconsole",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Make console log more colorful",
   "main": "colorconsole.js",
   "scripts": {
