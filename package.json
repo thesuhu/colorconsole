@@ -2,7 +2,7 @@
   "name": "@thesuhu/colorconsole",
   "version": "1.0.3",
   "description": "Make console log more colorful",
-  "main": "app.js",
+  "main": "colorconsole.js",
   "scripts": {
     "test": "node ./test/test.js"
   },

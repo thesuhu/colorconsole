@@ -38,7 +38,6 @@ Below is an example SQL log.
 const { sqlLogConsole } = require('@thesuhu/colorconsole')
 
 // when work with MySQL
-
 let query = mysql.format(sql, param)
 if (env == 'dev') {
     sqlLogConsole(query)
