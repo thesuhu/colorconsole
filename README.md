@@ -50,10 +50,6 @@ if (env == 'dev') {
 }
 ```
 
-## Credits
-
-- [Chalk](https://www.npmjs.com/package/chalk)
-
 ## License
 
 [MIT](https://github.com/thesuhu/colorconsole/blob/master/LICENSE)
